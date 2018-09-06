@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /*width: 1002px;
+    height: 1839px;*/
+    font-family: "Roboto Condensed";
+    color: #fff;
+    background: url(Warstwa_1672.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #163f75;
+}
+
+ul#topka {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0e3166;
+    height: 51px;
+    width: 100%;
+}
+
+li#tabs {
+    float: left;
+}
+
+li a#menl {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 18px 34px;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 0px;
+
+}
+
+li a:hover:not(.active) {
+    background-color: #001e40;
+    color: #fff;
+}
+
+.aktv#menl {
+    background-color: #75b64e;
+}
+
+nav {
+    max-width: 100%
+}
+
+.section-header {
+    text-align: center;
+}
+
+.section-header h2 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.red {
+    background-color: #f4242e;
+    padding: 5px;
+}
+
+.header-img {
+    margin-top: 20px;
+}
+
+.opis {
+    display: flex;
+    align-items: center;
+}
+
+.left-img {
+    margin-left: 5%;
+    margin-top: 5%;
+    float: left;
+}
+
+.lewy-opis {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 25px;
+}
+
+.post {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.butti {
+    background-color: #75b64e;
+    background-image: linear-gradient(-11deg, #ffcc3c 0%, #ffca4e 25%, #ffcb38 50%, #d39d45 75%, #ffcb38 100%);
+}
+
+.butti2 {
+    padding: 10px 20px 10px 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.54);
+    color: #805c31;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.right-img {
+    margin-right: 5%;
+    margin-top: 5%;
+    float: right;
+}
+
+.prawy-opis {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+.foot {
+    height: 30px;
+}
